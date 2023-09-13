@@ -7,13 +7,9 @@
 This repository contains a Python script that demonstrates the use of K-means clustering to propose coverage reallocation for global dead spots by adjusting the positions of a set number of orbital satellites. The code provides visualizations and quantifiable metrics to evaluate the predicted impact of this reallocation, focusing on coverage improvement and dead spot area reduction.
 
 Part A: Contains faux-generated data to plan K-means strategy
+
 Part B: Utilizes API
 
-## PART A
-
-![satellite_reallocation](https://github.com/saduri2004/Equitable-4G-Coverage-Optimization/assets/113476494/02bef6f1-5d78-4253-9a24-c597a70e1d47)
-![coverage_before_reallocation](https://github.com/saduri2004/Equitable-4G-Coverage-Optimization/assets/113476494/7051fbea-6ae5-4c2b-b9fa-d39ffc318ffc)
-![coverage_after_reallocation](https://github.com/saduri2004/Equitable-4G-Coverage-Optimization/assets/113476494/0a411ecf-7bef-4eb4-a4b3-cce0edb6d1f1)
 
 
 ## Motivation
@@ -35,6 +31,14 @@ Satellite coverage plays a vital role in modern communication, navigation, and r
 - **Visualization**: It provides visualizations of the original satellite positions, dead spots, and new satellite positions on a world map.
 
 - **Coverage Heatmaps**: The code generates heatmaps to visualize coverage before and after reallocation, quantifying the impact.
+
+- 
+## PART A: Faux-Generated Data
+
+![satellite_reallocation](https://github.com/saduri2004/Equitable-4G-Coverage-Optimization/assets/113476494/02bef6f1-5d78-4253-9a24-c597a70e1d47)
+![coverage_before_reallocation](https://github.com/saduri2004/Equitable-4G-Coverage-Optimization/assets/113476494/7051fbea-6ae5-4c2b-b9fa-d39ffc318ffc)
+![coverage_after_reallocation](https://github.com/saduri2004/Equitable-4G-Coverage-Optimization/assets/113476494/0a411ecf-7bef-4eb4-a4b3-cce0edb6d1f1)
+
 
 ## Results
 
