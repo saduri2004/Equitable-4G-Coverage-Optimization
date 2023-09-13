@@ -6,11 +6,21 @@
 
 This repository contains a Python script that demonstrates the use of K-means clustering to propose coverage reallocation for global dead spots by adjusting the positions of a set number of orbital satellites. The code provides visualizations and quantifiable metrics to evaluate the predicted impact of this reallocation, focusing on coverage improvement and dead spot area reduction.
 
+## K-means Clustering
+
+K-means clustering is a popular unsupervised machine learning algorithm used for clustering data points into groups or clusters. It aims to partition data points into K clusters, where each cluster is represented by its centroid.
+
+**Key Steps:**
+
+1. **Initialization:** Randomly select K data points as initial cluster centroids.
+
+2. **Assignment:** Assign each data point to the nearest cluster centroid based on a distance metric (often Euclidean distance).
+
+3. **Update Centroids:** Recalculate the centroids of each cluster as the mean of all data points assigned to that cluster.
+
+4. **Repeat:** Iteratively repeat the assignment and centroid update steps until convergence or a maximum number of iterations.
 
 ## Motivation
-
-Satellite coverage plays a vital role in modern communication, navigation, and remote sensing. However, ensuring global coverage can be challenging due to various factors, including orbital dynamics and geographical constraints. This project aims to address this challenge by reallocating satellites using data-driven techniques like K-means clustering. The motivation behind this effort is to:
-
 - **Improve Global Connectivity**: Enhancing satellite coverage leads to improved connectivity in remote or underserved areas, enabling access to vital services and information.
 
 - **Optimize Resource Allocation**: By strategically relocating satellites, we can optimize the use of available resources, reducing redundancy and costs.
