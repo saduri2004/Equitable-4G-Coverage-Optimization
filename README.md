@@ -9,7 +9,7 @@ This repository contains a Python script that demonstrates the use of K-means cl
 Part A: Contains faux-generated data to plan K-means strategy
 Part B: Utilizes API
 
-##PART A
+## PART A
 
 ![satellite_reallocation](https://github.com/saduri2004/Equitable-4G-Coverage-Optimization/assets/113476494/02bef6f1-5d78-4253-9a24-c597a70e1d47)
 ![coverage_before_reallocation](https://github.com/saduri2004/Equitable-4G-Coverage-Optimization/assets/113476494/7051fbea-6ae5-4c2b-b9fa-d39ffc318ffc)
